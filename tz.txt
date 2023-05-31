@@ -1,0 +1,10 @@
+USERNAME PICK PAGE
+ ➖ ** Username for user **
+
+MAIN PAGE
+ ➖ ** When the user enter, (${name} is online) **
+ ➖ ** When the user left (${name} is left) **
+ ➖ ** Chat **
+
+REQUIREMENTS PAGE
+ ➖ ** User name for chat, register with image **
