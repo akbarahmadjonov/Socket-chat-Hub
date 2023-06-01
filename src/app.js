@@ -19,9 +19,12 @@ const io = new Server(server, {
   },
 });
 
+//* Handle requests (connections)
 io.on("connection", (socket) => {
   console.log("Socket ID:", socket.id);
 });
+
+
 
 const chatRoute = require("../routes/chat");
 app.use("/", chatRoute);
