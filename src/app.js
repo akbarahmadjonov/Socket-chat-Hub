@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(fileUpload());
 app.use(express.json());
 app.set("view engine", "ejs");
+app.use(express.static("../client"));
 
 const server = http.createServer(app);
 const io = new Server(server, {
@@ -19,7 +20,6 @@ const io = new Server(server, {
 });
 
 io.on("connection", (socket) => {
-  console.log("New client connected");
   console.log("Socket ID:", socket.id);
 });
 

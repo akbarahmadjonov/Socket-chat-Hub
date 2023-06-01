@@ -1,5 +1,5 @@
 USERNAME PICK PAGE
- ➖ ** Username for user ** ✅
+ ➖ ** Username for user ** 
 
 MAIN PAGE
  ➖ ** When the user enter, (${name} is online) **
